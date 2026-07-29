@@ -9,7 +9,7 @@ function Interview(){
     function handlerI(e){
         e.preventDefault()
         console.log("The Form is Submitted")
-        api.post("http://127.0.0.1:8000/api/interview/",
+        api.post("interview/",
             {
                 role:Role,
                 Company_name:name
