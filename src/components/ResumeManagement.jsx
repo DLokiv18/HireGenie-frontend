@@ -11,7 +11,12 @@ function ResumeManagement(){
     function handler3(e){
         const formData = new FormData();
         formData.append("file",resumes)
-        api.post("resume/",formData)            
+        api.post("resume/",formData,
+                 {
+                     headers:{
+                         "Content-Type": "multipart/form-data",
+                 }
+                )            
         .then((response)=>{
             console.log("successfully saved")
             setresumes(null)
