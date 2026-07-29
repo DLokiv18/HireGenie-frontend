@@ -16,7 +16,7 @@ function ResumeManagement(){
                      headers:{
                          "Content-Type": "multipart/form-data",
                  }
-                )            
+                 } )            
         .then((response)=>{
             console.log("successfully saved")
             setresumes(null)
