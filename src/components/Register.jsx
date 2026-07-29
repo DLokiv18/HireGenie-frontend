@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "../styles/Register.css"
-import axios from "axios"
+// import axios from "axios"
+import api from "api"
 import { useNavigate } from "react-router-dom";
 function Register(){
     const navigate=useNavigate()
@@ -12,7 +13,7 @@ function Register(){
 
     function handler(e){
         e.preventDefault()
-        axios.post("http://127.0.0.1:8000/api/register/",
+        api.post("register/",
             {  
                 username:email,
                 full_name:name,

@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "../styles/Login.css";
 import axios from "axios"
+import api from "api"
 import {useNavigate} from "react-router-dom"
 function Login(){
     const navigate=useNavigate()
@@ -8,7 +9,7 @@ function Login(){
     const [password,setpassword]=useState("")
     function Fetching(e){
         e.preventDefault()
-        axios.post("http://127.0.0.1:8000/api/login/",
+        api.post("login/",
             {
                 username:email,
                 password:password
