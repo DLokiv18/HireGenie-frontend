@@ -1,0 +1,104 @@
+body{
+    background-image: url("../assets/ResumeManagement.jpg");
+}
+.Resume_for_he{
+    position: absolute;
+    top:30px;
+    left:350px;
+    color:Black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+.Resume_for_co{
+    position: absolute;
+    left:350px;
+    top:100px;
+    height:150px;
+    width:1000px;
+    /* border:2px solid red; */
+    border-radius: 10px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    background-color: #1C322C;
+}    
+input[type="file"]{
+    height:35px;
+    width:550px;
+    border:2px solid red;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    position: absolute;
+    top:30px;
+    left:300px;
+    border:1px solid rgba(255,255,255,.05);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
+}
+.Resume_Button{
+    position: absolute;
+    bottom:20px;
+    left:450px;
+    height: 45px;
+    width:250px;
+    background-color: #1C322C;
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    border:1px solid rgba(255,255,255,.05);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+
+}
+.Resume_container{
+    position: absolute;
+    left:350px;
+    top:300px;
+    height:400px;
+    width:1000px;
+    /* border:2px solid red; */
+    border-radius: 5px;
+    /* background-color: #FBF7ED;
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.40); */
+}
+.Resume_Details{
+    height:200px;
+    width:950px;
+    margin:20px auto;
+    border-radius: 5px;
+    /* background-color:#C9EB00; */
+     /* background-color:#1C322C; */
+    /* box-shadow:
+    0 10px 25px rgba(0,0,0,.40); */
+    box-shadow:
+8px 8px 20px rgba(0,0,0,0.12),
+-8px -8px 20px rgba(255,255,255,0.9);
+    color: goldenrod;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.Same{
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
+    border:1px solid rgba(255,255,255,.05);
+}
+.Resume_Button1{
+    position: absolute;
+    left:420px;
+    bottom:170px;
+    height: 40px;
+    width:250px;
+    border-radius: 5px;
+    background-color: #1C322C;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
+    border:1px solid rgba(255,255,255,.05);
+    color: white; 
+    font-size: 20px;
+    cursor:pointer;
+}

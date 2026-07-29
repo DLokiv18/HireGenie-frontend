@@ -1,0 +1,57 @@
+#Parent{
+    position:relative;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-image: url("../assets/Login.jpg");
+    background-size: 100% 100%;
+    
+}    
+
+/* Since your #Container has no background:  so it effects the background color of Parent*/
+#Container{
+    
+  position:absolute;
+  left:500px;
+  top:150px;
+  height: 500px;
+  width:500px;
+  border-radius:20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+  background-color: rgba(0, 0, 0, 0.75);
+  
+  
+  
+}
+.L_form{
+    font-style: italic;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    color:gold;
+}
+.input{
+    height:30px;
+    width:400px;
+    border-radius: 5px;
+    border-color: black;
+    
+
+}
+::placeholder{
+    font-size: 15px;
+    font-style: italic;
+    color:black;
+}
+.Bu_Log{
+    height: 40px;
+    width:400px;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    cursor:pointer;
+}
+p{
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.Email_form{
+    position: absolute;
+    top:10px;
+    height:750px;
+    left:330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border:2px soild red; */
+    /* box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15); */
+    border:1px solid rgba(255,255,255,.05);
+/* box-shadow:
+8px 8px 20px rgba(0,0,0,0.12),
+-8px -8px 20px rgba(255,255,255,0.9); */
+box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.35),
+        0 6px 15px rgba(0, 0, 0, 0.15);    
+}
+.form_email1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+.text_Jd{
+    height:50px;
+    width:320px;
+    border:none;
+}
+.Email_g{
+        height:25px;
+        border-radius: 10px;
+        border: none;
+
+}
+.But_genem{
+    text-align: center;
+    height:46px;
+    width:280px;
+    border: none;
+    background-color:#1C322C;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    
+}
+.Right_Email{
+    position:absolute;
+    top:10px;
+    left:830px;
+    height:2000px;
+    width:580px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+     border:1px solid rgba(255,255,255,.05);
+/* box-shadow:
+8px 8px 20px rgba(0,0,0,0.12),
+-8px -8px 20px rgba(255,255,255,0.9); */
+box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.35),
+        0 6px 15px rgba(0, 0, 0, 0.15);    
+font-size: 20px;
+color:Balck;
+font-style: italic;
+padding: 40px;
+
+
+}
+.Right_Email pre{
+    white-space: pre-wrap;   /* Keep line breaks and wrap text */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 24px;
+    font-family: "Courier New", monospace;
+    line-height: 1.6;
+    margin: 0;
+}

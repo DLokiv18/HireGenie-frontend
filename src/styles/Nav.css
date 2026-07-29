@@ -1,0 +1,119 @@
+.Nav_cont{
+    /* border:2px solid red; */
+    position: absolute;
+    top:40px;
+    left:35px;
+    height:650px;
+    width:250px;
+    /* background-color: #0E3E16; */
+    background-color:black;
+    border-radius: 10px;
+    border: 1px solid white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border:none; 
+    border:1px solid rgba(255,255,255,0.08); 
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.5),
+        inset 0 1px 0 rgba(255,255,255,0.03);
+    
+    
+}
+.Small_cont{
+    height:40px;
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    display:flex;
+    align-items: center;
+    /* https://www.navbar.gallery/ */
+    
+    
+}
+
+.Full_nav{
+    /* border-top-style: dotted; */
+    /* border-color: white; */
+    height: 615px;
+    width:100%;
+    position: absolute;
+    top:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border:2px solid red; */
+    
+}
+.Center{
+    position: absolute;
+    top:0px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-bottom: dotted;
+    border-color: white;
+    width:250px;
+    font-style: italic;
+    color: White;
+    font-weight: 500;
+    
+   
+}
+.Left_but{
+    /* position: absolute;
+    left:1400px; */
+    height: 40px;
+    width:140px;
+    color:Black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 5px;
+    font-style: bold;
+    cursor: pointer;
+}
+.Link_style{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: black; 
+    border-radius: 10px;
+    box-shadow:
+    0 8px 20px rgba(0, 191, 255, 0.2),
+    0 0 15px rgba(173, 216, 230, 0.3);
+    height:50px;
+    width:220px;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.Inner_nav{
+    position: absolute;
+    top:0px;
+    height:400px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* border:2px solid red; */
+
+}
+.Below_nav{
+    /* border:2px solid red; */
+    position:absolute;
+    bottom: 35px;
+}

@@ -1,0 +1,63 @@
+.Application_Details{
+    position:absolute;
+    top:150px;
+    left:400px;
+    height:auto;
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border:2px solid red;
+    border-radius: 10px;
+    border:none;
+     /* box-shadow:
+8px 8px 20px rgba(0,0,0,0.12),
+-8px -8px 20px rgba(255,255,255,0.9); */
+
+
+}
+/* .Bt_for_jo{
+    height:35px;
+    width:200px;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    border:none;
+    font-size: 20px;
+} */
+input{
+    border:none;
+}
+.Application_Card{
+    height:300px;
+    width:1000px;
+    border:2px solid red;
+    border-radius: 10px;
+    border:none;
+     /* box-shadow:
+8px 8px 20px rgba(0,0,0,0.12),
+-8px -8px 20px rgba(255,255,255,0.9); */
+box-shadow:
+0 10px 35px rgba(0,0,0,.50);
+
+padding: 10px;
+color:Black;
+font-style: italic;
+font-size: 25px;
+}
+.heading_jobt{
+    position: absolute;
+    top:20px;
+    left:590px;
+    height:70px;
+    width:500px;
+    border-radius: 10px;
+    color:black;
+    background-color:#B7CED4;
+    box-shadow:
+0 10px 35px rgba(0,0,0,.50);
+font-style: italic;
+font-size: 20px;
+text-align: center;
+margin-bottom: 50px;
+}

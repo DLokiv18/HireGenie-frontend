@@ -1,0 +1,49 @@
+#Parent1{
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image:url("../assets/Register.jpg");
+    height: 100vh;
+    
+
+}
+#Container1{
+  position: absolute;
+  left:500px;
+  top:50px;
+  height: 600px;
+  width:500px;
+  border-radius:20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+ 
+}
+form{
+    color:goldenrod;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.R_input{
+    height:30px;
+    width:400px;
+    border-radius: 5px;
+        
+}
+::placeholder{
+    font-size: 15px;
+    color:black;
+    font-style: italic;
+}
+#R_button{
+    height: 40px;
+    width:400px;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    font-style: italic;
+    cursor: pointer;
+}
