@@ -89,9 +89,8 @@ input[type="file"]{
     border:1px solid rgba(255,255,255,.05);
 }
 .Resume_Button1{
-    position: absolute;
-    left:420px;
-    bottom:170px;
+    
+    margin-top:20px;
     height: 40px;
     width:250px;
     border-radius: 5px;
