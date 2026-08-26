@@ -7,8 +7,10 @@ function Login(){
     const navigate=useNavigate()
     const [email,setemail]=useState("")
     const [password,setpassword]=useState("")
+    const [loading, setLoading] = useState(false);
     function Fetching(e){
         e.preventDefault()
+        setLoading(true);
         api.post("login/",
             {
                 username:email,
@@ -52,7 +54,7 @@ function Login(){
                 <input className="input" onChange={handler1}
                 type="password" placeholder="Password" />
                 <br /><br /><br />
-                <button className="Bu_Log">Log In</button>
+                <button className="Bu_Log" disabled={loading}>{loading ? "Please wait..." : "Log In"}</button>
                 <br /><br />
                 <hr />or
                 
