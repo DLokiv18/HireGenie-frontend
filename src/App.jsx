@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Login from "./components/Login";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import Register from "./components/Register"
@@ -10,7 +10,20 @@ import ResumeManagement from "./components/ResumeManagement";
 import Interview from "./components/Interview";
 import Jobboard from "./components/Jobboard";
 import Nav from "./components/Nav"
+import api from "./api";
+
 function App() {
+
+  useEffect(() => {
+  api.get("health/")
+    .then((response) => {
+      console.log("Backend is awake:", response.data);
+    })
+    .catch((error) => {
+      console.log("Backend wake-up request failed:", error);
+    });
+}, []);
+  
   const router=createBrowserRouter([
     {
       path:"/",
