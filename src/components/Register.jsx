@@ -10,9 +10,11 @@ function Register(){
     const [password,setpassword]=useState("")
     const [Experience,setExperience]=useState("")
     const [Location,setLocation]=useState("") 
+    const [loading, setLoading] = useState(false);
 
     function handler(e){
         e.preventDefault()
+        setLoading(true);
         api.post("register/",
             {  
                 username:email,
@@ -64,7 +66,7 @@ function Register(){
                 <br /><br />
                 <input type="text" onChange={e=>setLocation(e.target.value)} placeholder="Prefered Location" className="R_input"/>
                 <br /><br />
-                <button id="R_button">Create Account</button>
+                <button id="R_button" disabled={loading}>{loading ? "Please wait..." : "Create Account"}</button>
                 <br />
                 <p onClick={swaplogin}>Already have an account? Login➡️</p>
                 </form>
